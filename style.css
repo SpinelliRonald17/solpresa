@@ -58,9 +58,9 @@ h3 {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   background: #dace8e;
-  background-image: radial-gradient(#7884b9 15%, transparent 16%), radial-gradient(#c977ae 15%, transparent 16%);
-  background-size: 60px 60px;
-  background-position: 0 0, 30px 30px;
+  background-image: linear-gradient(to bottom right, #a4b6f5, #989bc7, #fff, #fff,  #c791ce, #df9cc3, #f1c1d4);
+  color: #ffff;
+
   z-index: 10;
   color: #e79701;
   display: grid;
@@ -278,14 +278,17 @@ h3 {
   transform: translateX(-50%) rotate(-45deg);
   top: 0;
 }
-.baby__face {
-  background: #fcbc9f;
+
+.alequecss{
+
+  background: #efefef;
   border-radius: 50%;
   width: 100%;
   height: 100%;
   display: grid;
   grid-template-rows: 4fr 1fr 2fr;
   grid-gap: 1em;
+  
 }
 .baby__forehead {
   display: flex;
@@ -376,3 +379,13 @@ h3 {
   border-radius: 50%;
   margin: 1em auto;
 }
+
+
+
+
+
+
+
+
+
+
