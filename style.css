@@ -385,7 +385,6 @@ h3 {
 
 
 .estrellas{
-  transform: rotate3d(0, 1, 0, 0deg);
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   background: #e2e2e200;
@@ -403,7 +402,6 @@ h3 {
           backface-visibility: hidden;
   background: #e2e2e200;
   background-image: radial-gradient(#d1cdce00 15%, transparent 16%), radial-gradient(#fcfcfc00 15%, transparent 16%);
-  z-index: 0;
   color: #72716f;
   display: grid;
   margin-left:228px;
@@ -411,12 +409,10 @@ h3 {
 
 
 .estrellas3{
-  transform: rotate3d(0, 1, 0, 0deg);
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   background: #e2e2e200;
   background-image: radial-gradient(#d1cdce00 15%, transparent 16%), radial-gradient(#fcfcfc00 15%, transparent 16%);
-  z-index: 0;
   color: #72716f;
   display: grid;
   margin-left:-28px;
@@ -424,7 +420,6 @@ h3 {
 
 
 .estrellas4{
-  transform: rotate3d(0, 1, 0, 0deg);
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   background: #e2e2e200;
