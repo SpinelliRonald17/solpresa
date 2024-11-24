@@ -57,9 +57,8 @@ h3 {
   transform: rotate3d(0, 1, 0, 0deg);
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  background: #dace8e;
-  background-image: linear-gradient(to bottom right, #a4b6f5, #989bc7, #fff, #fff,  #c791ce, #df9cc3, #f1c1d4);
-  color: #ffff;
+  background: linear-gradient(to bottom right, #a4b6f5, #989bc7, #fff, #fff,  #c791ce, #df9cc3, #f1c1d4);
+   color: #ffff;
 
   z-index: 10;
   color: #e79701;
@@ -75,6 +74,7 @@ h3 {
 }
 .open .card__panel--front {
   transform: rotate3d(0, 1, 0, -170deg);
+  
 }
 @media (min-width: 768px) {
   .open .card__panel--front {
@@ -100,6 +100,9 @@ h3 {
   transform: rotate3d(0, 1, 0, 0deg);
   z-index: -1;
   align-content: center;
+
+  background-image: url("./AleImg.png");
+  background-size: contain;
 }
 
 .open .confetti {
@@ -251,6 +254,7 @@ h3 {
   margin: 0 auto;
   opacity: 1;
   transition: opacity 1.2s ease;
+
 }
 .open .baby {
   opacity: 0;
